@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StorySong - Histórias Inspiradas pela Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <!-- Introdução -->
+        <header>
+            <div class="header">
+                <img src="carrossel.png" alt="Imagem do carrossel" class="carrossel" width="1400" height="100">
+            </div>
+            
+        </header>
+        
+        <section class="intro container m-auto">
+            <h1>StorySong - Histórias Inspiradas pela Música</h1>
+            <p>Bem-vindo ao StorySong! Nosso site é dedicado a transformar as emoções e narrativas que a música evoca em histórias únicas e criativas. Acreditamos que cada canção tem uma história para contar, e aqui, damos vida a essas histórias, inspiradas pelas suas músicas favoritas.</p>
+        </section>
+        
+        <!-- Funcionalidade Principal -->
+        <section class="formulario">
+            <h3>Escolha uma música para sugerir uma história</h3>
+            <div id="escolha">
+                <input type="text" class="musica" placeholder="Informe a música...">
+            </div>
+            <button class="btn-success" onclick="submitForm()">Gerar História</button>
+            <div id="carregar">
+                <img src="carregar.gif" alt="">
+            </div>
+            <div id="response" class="response"></div>
+        </section>
+
+        
+         <!-- Rodapé -->
+         <footer class="container-fluid">
+            <div class="footer-content">
+                <p>&copy; 2024 StorySong. Todos os direitos reservados.</p>
+                <ul class="footer-links">
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p style="color:black">Desenvolvido por <a href="#" style="color:black">Sara Resende</a></p>
+            </div>
+        </footer>
+        
+        
+    <script src="./script.js"></script>
+</body>
+
+</html>

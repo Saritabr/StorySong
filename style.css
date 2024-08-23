@@ -1,0 +1,227 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    width: 80vw;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #1DB954;
+}
+
+.formulario {
+    border: 1px solid #282828;
+    border-radius: 10px;
+    width: 60%;
+    margin: 40px auto; /* Adiciona espaçamento vertical e centraliza horizontalmente */
+    padding: 30px; /* Adiciona espaçamento interno */
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Loading */
+#carregar{
+    display: none;
+}
+
+.musica {
+    width: 95%;
+    padding: 15px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #282828;
+    border-radius: 5px;
+    background-color: #282828;
+    color: #ffffff;
+}
+
+.formulario h3 {
+    color: #b3b3b3;
+}
+
+
+
+.btn-success {
+    background-color: #1DB954;
+    color: #ffffff;
+    padding: 0.5em;
+    border: none;
+    border-radius: 1em;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 25%;
+    margin: auto;
+}
+
+.btn-success:hover {
+    background-color: #1ed760;
+}
+
+.resposta {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 60%;
+    background-color: #181818;
+    border: 1px solid #282828;
+    color: #b3b3b3;
+}
+
+.ingredient-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.ingredient-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #1DB954;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #e22134;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Estilizando o rodapé */
+/* Reseta as margens e padding para garantir alinhamento */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o rodapé */
+/* Remover margens e padding padrão do body e html */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Estilizando o rodapé */
+/* Reseta as margens e padding do body e html */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.carrossel {
+    width: 100vw; /* Define a largura da imagem como 100% da largura da janela de visualização */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços indesejados ao redor da imagem */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+}
+
+/* Garantir que o footer ocupe toda a largura da página e se estenda até as bordas */
+footer {
+    width: 100vw;
+    background-color: #10652e;
+    color: #fff;
+    padding: 20px; /* Ajustado para ser mais uniforme e menos excessivo */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    width: 100%; /* Garantir que o footer ocupe toda a largura da página */
+    box-sizing: border-box; /* Inclui padding na largura total */
+    position: relative; /* Pode ser removido se não houver necessidade de posição específica */
+}
+
+/* Estiliza o conteúdo principal do footer */
+.footer-content {
+    margin-bottom: 20px;
+}
+
+/* Estiliza o parágrafo dentro do conteúdo do footer */
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Estiliza a lista de links no footer */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* Estiliza cada item da lista de links */
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Estiliza os links na lista de links */
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Adiciona efeito de hover nos links */
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Estiliza o rodapé inferior do footer */
+.footer-bottom {
+    font-size: 12px;
+}
+
+/* Estiliza os links no rodapé inferior */
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Adiciona efeito de hover nos links do rodapé inferior */
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+
