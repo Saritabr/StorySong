@@ -5,7 +5,7 @@ import google.generativeai as gemini
 app = Flask(__name__)
 CORS(app)
 
-gemini.configure(api_key="AIzaSyDuiXiS5RfXl1KkeN_DQBTxBLc--ki0Lfs")
+gemini.configure(api_key="")
 model = gemini.GenerativeModel('gemini-1.5-pro')
 
 @app.route('/musicas', methods=['POST'])
